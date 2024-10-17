@@ -4,4 +4,4 @@ dbutils.widgets.dropdown("Who Am I", "Will Wang", ["Will Wang", "Jeremy Wang", "
 # COMMAND ----------
 
 name = dbutils.widgets.get("Who Am I")
-print(f"My name is {name}")
+print(f"My name is {name}, I am from databricks")
